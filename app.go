@@ -34,7 +34,7 @@ func main() {
 				log.Fatal(err)
 			}
 
-			name := handler.Filename + "---" + time.Now().UTC().Format("2006-01-02_15:04:05")
+			name := handler.Filename
 
 			f, err := os.OpenFile(
 				name,
